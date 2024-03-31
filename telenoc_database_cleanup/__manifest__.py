@@ -1,0 +1,25 @@
+
+{
+    "name": "Tele Database cleanup",
+    "version": "17.0.1.0.0",
+    "author": "Therp BV,Odoo Community Association (OCA)",
+    "website": "https://telenoc.org",
+    "depends": ["base"],
+    "license": "AGPL-3",
+    "category": "Tools",
+    "data": [
+        "views/purge_wizard.xml",
+        "views/purge_menus.xml",
+        "views/purge_modules.xml",
+        "views/purge_models.xml",
+        "views/purge_columns.xml",
+        "views/purge_tables.xml",
+        "views/purge_data.xml",
+        "views/create_indexes.xml",
+        "views/purge_properties.xml",
+        "views/menu.xml",
+        "security/ir.model.access.csv",
+    ],
+    "installable": True,
+    'images': ['static/description/banner.jpeg'],
+}
